@@ -3,6 +3,7 @@ import { View, Text, ScrollView,RefreshControl } from 'react-native';
 import { TopBar } from '../components/topbar'
 import { Story } from '../components/story'
 import { Podcast } from '../components/podcasts'
+import { Player } from '../components/player'
 
 export function Home() {
   const [refreshing, setRefreshing] = React.useState(false);
@@ -58,6 +59,7 @@ export function Home() {
           <Podcast/>
           <Podcast/>
         </ScrollView>
+        <Player />
       </View>
     );
   }
