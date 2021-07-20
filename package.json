@@ -16,7 +16,7 @@
     "@react-navigation/native": "^5.7.0",
     "faker": "^4.1.0",
     "react": "16.13.1",
-    "react-native": "0.63.0",
+    "react-native": "0.64.1",
     "react-native-gesture-handler": "^1.6.1",
     "react-native-modalize": "^2.0.4",
     "react-native-paper": "^3.10.1",
